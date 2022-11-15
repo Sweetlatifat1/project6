@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    /* max-width: 1280px; */
+    text-decoration:none;
+}
+nav {
+padding: 2rem;
+}
+.heading{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo{
+    width: 20%;
+
+}
+.start a {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+.nav-button {
+    width: 120px;
+    height:40px;
+    border-radius: 15px;
+    border:none;
+    background-color: orangered;
+    color:#fff;
+
+}
+/* end nav section */
+.all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+   background-color: pink;
+   width: 100%;
+}
+h1{
+    margin-block-end: 5%;
+    font-size: 40px;
+}
+.firstp{
+    margin-block-end: 5%;
+    font-size: 20px;
+}
+.one{
+    color: darkblue;
+    width: 50%;
+    height: 419px;
+    background-color: blueviolet;
+}
+.shapes{
+    width:50%;
+    height: 404px;
+    background-color: yellow;
+}
+.section-one {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem;
+    margin: 0 auto;
+}
+.section-one .one h3 {
+    font-size: 30px;
+}
+.section-one .one p {
+    width:300px;
+}
+.inner-box {
+    display:flex;
+    gap:20px;
+}
+.inner-box button {
+    width: 120px;
+    height:40px;
+    border-radius: 15px;
+    border:none;
+    background-color: orangered;
+    color:#fff;
+}   
+.topic{
+    text-align: center;
+    font-size: 30px;
+}
+.abd h4{
+    margin-bottom: 6px;
+}
+.focuse{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem;
+} 
+.picture{
+    width: 30%;
+    height: auto;
+    text-align: center;
+} 
+.picture img{
+    width: 40px;
+    height: 40px;
+    margin-top: 6px;
+}
+.focuse h3{
+    margin-bottom: 8px;
+}
+.enjoy{
+    text-align: center;
+}
+footer{
+    background-color: pink;
+}
+.team{
+    display: flex;
+    justify-content: space-around;
+    background-color: orangered;
+    margin-top: 50px;
+    height: 100px;
+    color: #fff;    
+}
+.team h2{
+    margin-top: 20px;
+}
+.add button{
+    width: 120px;
+    height:40px;
+    border-radius: 15px;
+    border:none;
+    background-color: white;
+    color: orangered ; 
+    margin-top: 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: #fff;
+    height: 150px;
+    align-items: center;
+    /* width: 100%; */
+}
+.pic{
+    width: 6%;
+}
+.about2{
+    gap: 30px;
+}
+.about3 button{
+    width: 150px;
+    height:40px;
+    border-radius: 20px;
+    border:none;
+    background-color: white;
+    color: orangered ; 
+    margin-top: 20px;   
+}
+/* .about {
+    width: 120px;
+    height:40px;
+    border-radius: 15px;
+    border:none;
+    background-color: orangered;
+    color:#fff;
+} */
+
+/* desktop first approach */
+
+@media (max-width: 1400px){}
+@media (max-width: 1200px){} 
+@media (max-width: 992px){}
+@media (max-width: 768px){
+    .section-one {
+        display:block;   
+    }
+    .one{
+        width: 100%;
+    }
+    .all{
+        display: block;
+    }
+    .shapes{
+        width: 100%;
+    }
+    
+}
+@media (max-width: 576px){
+    /* .team{
+        
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .about{
+        padding-left: 2%;
+        padding-right: 2%;
+    } */
+}
+@media (max-width: 425px){
+    .focuse{
+        display: block;
+    }
+    .picture{
+        width: 100%;
+    }
+    /* .team{
+        
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .about{
+        padding-left: 5%;
+        padding-right: 7%;
+    } */
+}
+@media (max-width: 366px){
+    /* .team{
+        width: 110%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .about{
+        width: 110%;
+        padding-left: 4%;
+        padding-right: 4%;
+    } */
+}
+@media (max-width: 330px){
+    /* .team{
+        width: 100%;
+     
+    }
+    .about{
+        width: 100%;
+        
+    } */
+}
+@media (max-width: 320px){}
